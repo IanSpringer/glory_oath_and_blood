@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+
+@font-face{
+	font-family:Recharge;
+	src: url(../css/fonts/recharge_bd.ttf);
+}
+
+.text-font{
+	color: #CCC;
+	line-height: 200%;
+	text-shadow: 5px 5px 5px #000;
+	margin-right: 0%;
+	margin-left: 10%;
+	padding-left: 25%;
+	padding-top: 40%;
+	opacity: 0.9;
+}
+
+
+body,td,th {
+	font-family: "Recharge";
+	color: #FFF;
+	background-color: #000000;
+}
+
+
+.hidetext {
+	visibility: hidden;
+}
+
+.icons-bkg
+{
+	z-index: 5;
+	position:relative;
+	max-width: 100%;
+    margin-top: 43.8%;
+	top: 100%;
+	left: 0%;
+	opacity: 0.8;
+}
+
+/* Icons Setup */
+
+.icon-mail
+{
+	position:relative;
+	/*margin-top: -5.5%;*/
+	max-width: 100%;
+	float: left;
+	left: 5%;
+	z-index: 6 !important;
+	opacity: 0.7;
+}
+
+
+.icon-fb
+{
+	position:relative;
+	/*margin-top: -5.4%;*/
+	float: left;
+	left: 11%;
+	z-index: 6 !important;
+	opacity: 0.7;
+}
+
+.icon-twitter
+{
+	position:relative;
+	/*margin-top: -5.4%;*/
+	float: left;
+	left: 18%;
+	z-index: 6 !important;
+	opacity: 0.7;
+}
+
+
+.icon-spotify
+{
+	position:relative;
+	/*margin-top: -5.4%;*/
+	float: left;
+	left: 27%;
+	z-index: 6 !important;
+	opacity: 0.7;
+}
+
+
+.icon-youtube
+{
+	position:relative;
+	/*margin-top: -5.4%;*/
+	float: left;
+	left: 37%;
+	z-index: 6 !important;
+	opacity: 0.7;
+}
+
+.icon-itunes
+{
+	position:relative;
+	/*margin-top: -5.4%;*/
+	float: left;
+	left: 46%;
+	z-index: 6 !important;
+	opacity: 0.7;
+}
+
+.icon-wcm
+{
+	position:relative;
+	/*margin-top: -5.5%;*/
+	float: left;
+	left: 55%;
+	z-index: 6 !important;
+	opacity: 0.7;
+}
+
+/* Mouse Hover Settings */
+
+.icon-mail:hover{
+	opacity: 1.0;
+}
+
+.icon-fb:hover{
+	opacity: 1.0;
+}
+
+.icon-twitter:hover{
+	opacity: 1.0;
+}
+
+.icon-youtube:hover{
+	opacity: 1.0;
+}
+
+.icon-spotify:hover{
+	opacity: 1.0;
+}
+
+.icon-itunes:hover{
+	opacity: 1.0;
+}
+
+.icon-wcm:hover{
+	opacity: 1.0;
+}
+
+.below-banner
+{
+	position: relative;
+	margin-width: 100%;
+	padding: 0px;
+	max-width: 100%;
+	max-height: 100%;
+	z-index: 5 !important;
+	opacity: 1;
+	height: auto;
+	width: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.copyright {
+	position: relative;
+    /*
+	margin-top: 31.5%;
+	*/
+	padding: 0px;
+	/*background-image: url(/img/Bottom_Shade.png);
+	background-repeat: no-repeat;
+	background-color: #000000;
+	*/
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 250%;
+	font-size: 1rem;
+	color: #999;
+	z-index: 5;
+	background-size: auto;
+	border: 0px;
+}
+
+
+img.ri:empty 
+{
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+@media screen and (orientation: portrait) {
+  img.ri {
+      max-width: 100%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  img.ri {
+      max-height: 100%;
+  }
+}
+
+
+@media screen and (min-width: 147px){
+  html{
+    font-size: 2px;
+  }
+}
+@media screen and (min-width: 270px){
+  html{
+    font-size: 3px;
+  }
+}
+@media screen and (min-width: 355px){
+  html{
+    font-size: 4px;
+  }
+}
+@media screen and (min-width: 450px){
+  html{
+    font-size: 5px;
+  }
+}
+@media screen and (min-width: 500px){
+  html{
+    font-size: 6px;
+  }
+}
+@media screen and (min-width: 575px){
+  html{
+    font-size: 7px;
+  }
+}
+@media screen and (min-width: 655px){
+  html{
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 735px){
+  html{
+    font-size: 9px;
+  }
+}
+@media screen and (min-width: 795px){
+  html{
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 870px){
+  html{
+    font-size: 11px;
+  }
+}
+@media screen and (min-width: 965px){
+  html{
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1050px){
+  html{
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1120px){
+  html{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px){
+  html{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1335px){
+  html{
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1500px){
+  html{
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 1600px){
+  html{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1800px){
+  html{
+    font-size: 22px;
+  }
+}
+</style>

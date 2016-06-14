@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body,td,th {
+	font-family: "Courier New", Courier, monospace;
+	color: #FFF;
+}
+body {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-image: url(../images/basin_bg_phone.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+.floatleft, .floatright {
+    width: 100%;
+    max-width: 1080px;
+    display: block;
+    margin: auto auto 1.5em;
+}
